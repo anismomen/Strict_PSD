@@ -1,0 +1,251 @@
+/* Lato Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+/* Global CSS */
+body{
+	font-family: 'Lato', sans-serif;
+}
+.bg-color{
+   background-color: #f6f9f9
+}
+nav {
+	padding-top: 25px !important;
+    padding-bottom: 26px !important;
+}
+.navbar-nav .nav-link {
+    color: #2d3950;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.banner-section{
+	    background-image: url(../images/banner.jpg);
+	    background-size: cover;
+	    height: 800px;
+}
+.banner-section .row {
+	min-height: 800px
+}
+.banner-section h1{
+
+font-size: 120px;
+
+color: #fff;
+
+font-weight: 600;
+}
+.tittle-border{
+    width: 100%;
+    display: block;
+    border: #15a4fa solid 1px;
+}
+.banner-section p{
+    font-size: 20px;
+    color: #fff;
+    margin: 40px 0 65px;
+    display: block;
+}
+.banner-section button{
+    font-size: 18px;
+    padding: 12px 36px;
+    color: #fff;
+    border: 1px solid #15a4fa;
+
+}
+.banner-section button:hover{
+	background-color: #15a4fa;
+	color: #fff
+}
+.banner-section a {
+    color: #fff;
+    display: block;
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    animation-name: Move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Move {
+    0% {
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(-50px);
+        -webkit-transform: translateY(-50px);
+        -moz-transform: translateY(-50px);
+    }
+
+}
+.banner-section .fa{
+    color: #fff;
+    font-size: 32px;
+    transform: translateY(-80px);
+}
+.about-section{
+    padding: 77px 0 95px;
+}
+h1{
+    font-size: 40px;
+    color: #2d3950;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    color: #999999;
+    font-weight: 400;
+}
+.feature-section{
+    padding: 60px 0;
+}
+.feature{
+    text-align: center;
+}
+.feature span{
+    font-size: 70px;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    line-height: 100px;
+    text-shadow: 0 1px 2px #3c503c66;
+}
+.feature h2{
+    font-size: 22px;
+    color: #2d3950;
+    font-weight: 500;
+    margin: 25px 0 15px;
+}
+.feature p{
+    font-size: 15px;
+    color: #999999;
+    max-width: 300px;
+    margin: auto;
+}
+.portfolio-section{
+	padding: 80px 0 110px;
+}
+.portfolio-item{
+	position: relative;
+}
+.portfolio-hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #2cabf7;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+.portfolio-item:hover .portfolio-hover{
+	opacity: 0.7;
+}
+
+}
+.portfolio-item img{
+	width: 100%;
+}
+.portfolio-hover ul{
+	padding: 0;
+	display: block;
+	text-align: center;
+	top: 41%;
+	left: 3%;
+	position: relative;
+}
+.portfolio-item ul li{
+	list-style: none;
+	display: inline;
+	margin: 0px 4px;
+	color: #fff;
+}
+.portfolio-hover .fa{
+	width: 40px;
+	height: 40px;
+	border: solid 1px #fff;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.contact-section{
+	background-image: url(../images/contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 75px 0 100px;
+}
+.contact-section::before{
+	content: "";
+	background: #2d3950;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+.contact-section h1{
+	color: #fff
+}
+.contact-section p{
+	color: #999999
+}
+form{}
+form
+.form-control {
+    padding: 25px 16px;
+    border: 1px solid #9999;
+    background-color: #fff0;
+}
+label{
+	color: #999;
+}
+form .btn{
+    font-size: 18px;
+  	padding: 6px 20px;
+    color: #fff;
+    border: 1px solid #15a4fa;
+}
+footer{
+	    padding: 25px 0;
+}
+footer p{
+	color: #999999
+	font-size: 15px;
+	margin: 0;
+}
+footer ul{}
+footer ul li{
+    padding-left: 3px;
+}
+footer ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #15a4fa;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 1px solid #15a4fa;
+    transition: 0.3s ease-in-out;
+}
+footer ul li a:hover{
+	background-color: transparent;
+}
