@@ -8,9 +8,35 @@ body{
    background-color: #f6f9f9
 }
 nav {
-	padding-top: 25px !important;
-    padding-bottom: 26px !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
 }
+.navbar-brand {
+    margin-right: 140px;
+}
+.navbar-toggler{
+    border: 1px solid #15a4fa;
+    padding: 0 5px;
+    transition-duration: 0.4s;
+
+}
+.navbar-toggler span{
+    display: block;
+    width: 35px;
+    height: 4px;
+    background: #15a4fa;
+    margin: 6px 0;
+    transition-duration: 0.4s;
+}
+.navbar-toggler:hover{
+    background: #2d395085;
+}
+.navbar-toggler:hover span{
+    background: #fff;
+    border: 1px solid #2d3950;
+
+}
+
 .navbar-nav .nav-link {
     color: #2d3950;
     font-size: 16px;
