@@ -1,3 +1,30 @@
+/*media-queries*/
+
+@media(max-width: 1199px){
+    .banner-section h1 {
+        font-size: 95px;
+    }
+    
+.banner-section span {
+    width: 74%;
+    margin: auto;
+}
+}
+
+
+@media(max-width: 991px){
+    .banner-section h1 {
+        font-size: 74px;
+    }
+    .banner-section p{
+        font-size: 21px;
+    }
+    .showcase-section h1{
+        font-size: 38px;
+    }
+}
+
+
 @media(max-width: 575px){
     .banner-section .row{
         min-height: 591px;
@@ -5,6 +32,12 @@
     nav {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
+}
+.navbar-toggler span {
+    width: 27px;
+    height: 4px;
+    margin: 5px 0;
+    transition: 0.4s ease-in-out;
 }
     .banner-section h1 {
         font-size: 68px;
@@ -25,7 +58,6 @@ h1 {
 .banner-section {
     height: 530px;
 }
-
     .about-section{
         padding: 40px 0px 20px;
     }
@@ -47,10 +79,12 @@ h1 {
     .portfolio-section {
     padding: 20px 0 50px;
 }
+.col-sm-6,.col-6 {
+    padding-top: 5px;
+}
 .contact-section {
     padding: 20px 0 30px;
 }
-
     .showcase-section h1{
         font-size: 33px;
     }
@@ -58,10 +92,4 @@ h1 {
     text-align: center;
     padding-bottom: 10px;
 }
-}
-
-
-
-
-@media (max-width: 420px)
 }
