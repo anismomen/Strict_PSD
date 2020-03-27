@@ -33,6 +33,10 @@
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
+.navbar-nav {
+        align-items: flex-end;
+        padding: 0px 50px;
+}
 .navbar-toggler span {
     width: 27px;
     height: 4px;
@@ -41,6 +45,9 @@
 }
     .banner-section h1 {
         font-size: 68px;
+    }
+    .banner-section button{
+           padding: 5px 10px; 
     }
     .portfolio-section p {
     padding-bottom: 10px;
@@ -79,8 +86,27 @@ h1 {
     .portfolio-section {
     padding: 20px 0 50px;
 }
-.col-sm-6,.col-6 {
-    padding-top: 5px;
+.feature {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.portfolio-section .col-6 {
+     padding: 0 10px;
+}
+.portfolio-item {
+    margin-bottom: 15px;
+}
+.feature h2 {
+    margin: 10px 0 10px;
+}
+.feature span {
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+.feature .fa {
+    font-size: 50px;
 }
 .contact-section {
     padding: 20px 0 30px;
